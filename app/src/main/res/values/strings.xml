@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Freestlye</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_text">Welcome To The Amazing App</string>
+    <string name="line_1_text">Do You Really</string>
+    <string name="line_2_text">Want To Play</string>
+    <array name="favorite_shows">"Shameless", "Game Of Thrones", "Suits", "Fresh Prince",
+        "Two And A Half Men", "Breaking Bad", "Martin", "H", "Dave Chapelle Show", "House"}</array>
+
+    <string name="yes_button">No</string>
+    <string name="no_button">Yes</string>
+
+</resources>
