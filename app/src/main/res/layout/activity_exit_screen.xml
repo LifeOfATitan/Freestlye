@@ -36,13 +36,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/exit_yes_button_id"
-            android:text="@string/exit_yes_button_text" />
+            android:text="@string/exit_yes_button_text"
+            android:onClick="exit_yes_button_click"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/exit_no_button_id"
-            android:text="@string/exit_no_button_text"/>
+            android:text="@string/exit_no_button_text"
+            android:onClick="exit_no_button_click"/>
 
     </LinearLayout>
 

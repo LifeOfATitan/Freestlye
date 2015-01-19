@@ -1,17 +1,26 @@
 package com.wordpress.logitopia.freestlye;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class ExitScreenActivity extends ActionBarActivity {
+
+	private Button exitYesButton, exitNoButton;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_exit_screen);
+
+		exitNoButton = (Button)findViewById(R.id.exit_no_button_id);
+		exitYesButton = (Button)findViewById(R.id.exit_yes_button_id);
+
 
 
 	}
@@ -37,5 +46,17 @@ public class ExitScreenActivity extends ActionBarActivity {
 		}
 
 		return super.onOptionsItemSelected(item);
+	}
+
+	public void exit_yes_button_click(View view) {
+
+
+	}
+
+	public void exit_no_button_click(View view) {
+
+		Intent exitNoButton = new Intent (this, HomepageActivity.class);
+
+		startActivity(exitNoButton);
 	}
 }

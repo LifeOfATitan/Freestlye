@@ -25,12 +25,8 @@ public class HomepageActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_homepage);
 
 
-
-
 		answerNoButton = (Button)findViewById(R.id.no_button);
 		answerYesButton = (Button)findViewById(R.id.yes_button);
-
-
 
 
 
