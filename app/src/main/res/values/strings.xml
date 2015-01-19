@@ -10,7 +10,7 @@
     <array name="favorite_shows">"Shameless", "Game Of Thrones", "Suits", "Fresh Prince",
         "Two And A Half Men", "Breaking Bad", "Martin", "H", "Dave Chapelle Show", "House"}</array>
 
-    <string name="yes_button">No</string>
-    <string name="no_button">Yes</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
 
 </resources>

@@ -29,6 +29,7 @@
             android:id="@+id/line_1"
             android:text="@string/line_1_text"
             android:gravity="center|bottom"
+            android:textStyle="bold"
 
             />
     <TextView
@@ -37,6 +38,7 @@
         android:id="@+id/line_2"
         android:text="@string/line_2_text"
         android:gravity="center|bottom"
+        android:textStyle="bold"
 
         />
 
@@ -56,6 +58,7 @@
            android:paddingTop="20dp"
            android:id="@+id/yes_button"
            android:text="@string/yes_button"
+           android:onClick="yesButtonClick"
 
            />
     <Space
@@ -73,6 +76,7 @@
             android:paddingRight="20dp"
             android:paddingBottom="20dp"
             android:paddingTop="20dp"
+            android:onClick="noButtonClick"
         />
 
 
