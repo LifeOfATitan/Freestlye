@@ -1,5 +1,6 @@
 package com.wordpress.logitopia.freestlye;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,8 +25,12 @@ public class HomepageActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_homepage);
 
 
+
+
 		answerNoButton = (Button)findViewById(R.id.no_button);
 		answerYesButton = (Button)findViewById(R.id.yes_button);
+
+
 
 
 
@@ -63,13 +68,20 @@ public class HomepageActivity extends ActionBarActivity {
 
 		String yourResponse = "That's Great";
 
-		Toast.makeText(this, yourResponse, Toast.LENGTH_SHORT).show();
+
+//		Toast.makeText(this, yourResponse, Toast.LENGTH_SHORT).show();
+
 	}
 
 	public void noButtonClick(View view) {
 
 		String yourNoResponse = "Well GoodBye Soldier";
-		Toast.makeText(this, yourNoResponse, Toast.LENGTH_SHORT).show();
+
+//		Toast.makeText(this, yourNoResponse, Toast.LENGTH_SHORT).show();
+
+		Intent noButtonIntent = new Intent(this, ExitScreenActivity.class);
+
+		startActivity(noButtonIntent);
 
 
 	}

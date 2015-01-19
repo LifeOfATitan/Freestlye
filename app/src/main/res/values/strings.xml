@@ -7,10 +7,19 @@
     <string name="welcome_text">Welcome To The Amazing App</string>
     <string name="line_1_text">Do You Really</string>
     <string name="line_2_text">Want To Play</string>
+
     <array name="favorite_shows">"Shameless", "Game Of Thrones", "Suits", "Fresh Prince",
         "Two And A Half Men", "Breaking Bad", "Martin", "H", "Dave Chapelle Show", "House"}</array>
 
     <string name="yes_button">Yes</string>
     <string name="no_button">No</string>
+    <string name="exit_line_text_1">Are You</string>
+    <string name="exit_line_text_2">Sure!?!</string>
+    <string name="exit_yes_button_text">Get Me Outta Here</string>
+    <string name="exit_no_button_text">You Right, Take Me Back</string>
+    <string name="exit_page">Exit</string>
+    <string name="title_activity_game_screen">GameScreenActivity</string>
+    <string name="mathDisplayText"> Enter Problems </string>
+    <string name="answerDisplayText">Solution</string>
 
 </resources>
