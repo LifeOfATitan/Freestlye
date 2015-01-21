@@ -64,6 +64,10 @@ public class HomepageActivity extends ActionBarActivity {
 
 		String yourResponse = "That's Great";
 
+		Intent playGameIntent = new Intent(this, GameScreenActivity.class);
+
+		startActivity(playGameIntent);
+
 
 //		Toast.makeText(this, yourResponse, Toast.LENGTH_SHORT).show();
 

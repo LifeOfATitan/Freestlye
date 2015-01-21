@@ -10,8 +10,15 @@
                 tools:context="com.wordpress.logitopia.freestlye.GameScreenActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/math_display_id"
         android:text="@string/mathDisplayText"
@@ -20,11 +27,121 @@
 
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/answer_display_id"
         android:text="@string/answerDisplayText"
         android:layout_marginTop="20dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_answer_id"
+            android:text="@string/enterAnswerText"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+        <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal"
+         android:layout_gravity="center"
+         android:gravity="top|right">
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="4"
+    android:columnCount="3">
+
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:paddingLeft="10dp"
+             android:id="@+id/number_7_button_id"
+             android:text="7"/>
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:paddingLeft="10dp"
+             android:id="@+id/number_8_button_id"
+             android:text="8"/>
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:paddingLeft="10dp"
+             android:id="@+id/number_9_button_id"
+             android:text="9"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/number_4_button_id"
+                android:text="4"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/number_5_button_id"
+            android:text="5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_6_button_id"
+        android:text="6"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_1_button_id"
+        android:text="1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_2_button_id"
+        android:text="2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_3_button_id"
+        android:text="3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_button_id"
+        android:text="Del"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_0_button_id"
+        android:text="0"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_button_id"
+        android:text="Ent"/>
+
+
+</GridLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
 
 
 </LinearLayout>

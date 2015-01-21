@@ -18,8 +18,8 @@ public class ExitScreenActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_exit_screen);
 
-		exitNoButton = (Button)findViewById(R.id.exit_no_button_id);
-		exitYesButton = (Button)findViewById(R.id.exit_yes_button_id);
+//		exitNoButton = (Button)findViewById(R.id.exit_no_button_id);
+//		exitYesButton = (Button)findViewById(R.id.exit_yes_button_id);
 
 
 
@@ -49,6 +49,12 @@ public class ExitScreenActivity extends ActionBarActivity {
 	}
 
 	public void exit_yes_button_click(View view) {
+
+		Intent exitYesButton = new Intent(this, ExitScreenActivity.class);
+
+		finishActivity(0);
+		System.exit(0);
+
 
 
 	}
