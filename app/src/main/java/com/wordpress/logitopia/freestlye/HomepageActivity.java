@@ -69,7 +69,7 @@ public class HomepageActivity extends ActionBarActivity {
 		startActivity(playGameIntent);
 
 
-//		Toast.makeText(this, yourResponse, Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, yourResponse, Toast.LENGTH_SHORT).show();
 
 	}
 
