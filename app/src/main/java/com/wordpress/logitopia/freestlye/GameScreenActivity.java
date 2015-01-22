@@ -7,9 +7,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.EditText;
 
 
-public class GameScreenActivity extends ActionBarActivity {
+public class GameScreenActivity extends ActionBarActivity implements View.OnClickListener {
+
+	Button zero, one, two, three, four, five, six, seven, eight, nine, cls, ent;
+
+	int num1, num2;
+
+	EditText answerDisplay;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -45,5 +53,26 @@ public class GameScreenActivity extends ActionBarActivity {
 		}
 
 		return super.onOptionsItemSelected(item);
+	}
+
+	public void number_7_button_click(View view) {
+
+//		seven = (Button)findViewById(R.id.number_7_button_id);
+//
+//		seven.setOnClickListener(this);
+//		answerDisplay.setText((CharSequence) seven);
+
+//		view.findViewById(R.id.number_7_button_id);
+//		seven.setOnClickListener(this.number_7_button_click());
+	}
+
+	@Override
+	public void onClick(View v) {
+		seven = (Button)findViewById(R.id.number_7_button_id);
+
+		seven.setOnClickListener(this);
+		answerDisplay.setText((CharSequence) seven);
+
+
 	}
 }
