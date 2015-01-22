@@ -52,7 +52,7 @@ public class ExitScreenActivity extends ActionBarActivity {
 
 		Intent exitYesButton = new Intent(this, ExitScreenActivity.class);
 
-		finishActivity(0);
+//		finishActivity(0);
 		System.exit(0);
 
 

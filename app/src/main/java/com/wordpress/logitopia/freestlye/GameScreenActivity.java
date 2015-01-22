@@ -1,9 +1,12 @@
 package com.wordpress.logitopia.freestlye;
 
+import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 
 
 public class GameScreenActivity extends ActionBarActivity {
@@ -12,6 +15,13 @@ public class GameScreenActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_game_screen);
+	}
+
+
+	public void hideSoftKeyboard(View view2){
+
+		InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+		imm.hideSoftInputFromWindow(view2.getWindowToken(), 0);
 	}
 
 
